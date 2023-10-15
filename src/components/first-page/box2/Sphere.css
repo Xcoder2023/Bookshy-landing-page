@@ -1,0 +1,18 @@
+.box2 {
+  display: flex;
+}
+
+.cards img {
+  width: 334.286px;
+  height: 410.945px;
+  position: relative;
+  left: 90px;
+  bottom: 80px;
+  margin-bottom: -80px;
+  margin-left: -90px;
+}
+
+.card2 img {
+  width: 237.93px;
+  height: 292.492px;
+}

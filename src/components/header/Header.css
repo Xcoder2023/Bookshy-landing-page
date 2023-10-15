@@ -1,0 +1,30 @@
+.headerMenu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 13px 76.13px;
+    background: #FFF;
+    border: 1px solid #EBEBEB;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.nav-bar{
+    display: flex;
+    align-items: flex-start;
+    gap: 86px;
+    color: #000000;
+    list-style-type: none;
+}
+.nav-btn{
+    padding: 14px 33px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 4px;
+    background: #200E32;
+    color:#FFFFFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}

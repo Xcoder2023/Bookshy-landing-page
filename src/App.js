@@ -1,23 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from './components/header/Header';
+import Part from './components/first-page/box1/Part';
+import Novels from './components/second-page/box3/Novels';
+import NovelMap from './components/third-page/NovelMap';
+import NovelSpheres from './components/fourth-page/NovelSpheres';
+import MarketPlace from './components/fifth-page/MarketPlace';
+import Collections from './components/sixth-page/Collections';
+import Footer from './components/footer/Footer';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <Part />
+      <Novels />
+      <NovelMap />
+      <NovelSpheres />
+      <MarketPlace />
+      <Collections />
+      <Footer />
     </div>
   );
 }

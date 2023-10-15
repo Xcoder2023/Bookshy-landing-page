@@ -1,0 +1,85 @@
+.collectors {
+  display: flex;
+  padding: 0 82px;
+  gap: 20px;
+}
+.bold-text {
+  color: #200e32;
+  font-family: "Montserrat";
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 66px;
+  width: 650px;
+}
+.lorem-text {
+  color: #404040;
+  font-family: "Montserrat";
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 29px; /* 170.588% */
+  width: 613px;
+}
+.map-grids{
+    display: flex;
+    justify-content: center;
+    padding: 20px 82px;
+    gap: 10px;
+}
+
+.grid-one {
+  background: url("../assets/novelmap-img/Group\ 173.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 250px;
+  height: 200px;
+}
+.grid-two{
+    background: url("../assets/novelmap-img/Group\ 172.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    height: 200px;
+}
+.grid-three{
+    background: url("../assets/novelmap-img/Group\ 171.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    height: 200px; 
+}
+.grid-four{
+    background: url("../assets/novelmap-img/Group\ 172\ \(1\).png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    height: 200px; 
+}
+.grid-six{
+    background: url("../assets/novelmap-img/Group\ 174.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    height: 200px; 
+}
+.left-large-view{
+    background: url("../assets/novelmap-img/Game-Of-Thrones-map-See-the-known-world\,-Westeros\,-The-.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 400px;
+    height: 410px;
+}
+
+.grid-view{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    /* row-gap: 0px; */
+}

@@ -1,0 +1,35 @@
+.trending-novels {
+  background: #200e32;
+  height: 385px;
+  flex-shrink: 0;
+  margin-bottom: 200px;
+}
+
+.trending-novels {
+  color: #fff;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding: 53px 80px 0 80px;
+  font-family: 'Montserrat';
+
+}
+.novels {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 10px;
+}
+.novel5 img {
+  width: 262px;
+  height: 348px;
+  border: 1px solid #200e32;
+  background: #fff;
+}
+.nove-img {
+  width: 223px;
+  height: 315px;
+  border: 1px solid #200e32;
+  background: #fff;
+}

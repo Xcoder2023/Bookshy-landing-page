@@ -1,0 +1,91 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 92.26px 76.13px 30px 76.13px;
+}
+
+.section-a {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.bold-print {
+  width: 615px;
+  height: 124px;
+  color: #200e32;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 61.713px;
+  font-family: 'Montserrat';
+}
+
+span {
+  color: #f09a58;
+}
+
+.print-paragraph {
+    width: 603px;
+    color: #404040;
+    font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+}
+.svg {
+  display: flex;
+  align-items: center;
+}
+.bold-print-arrow {
+  position: relative;
+  right: 200px;
+  margin-right: -200px;
+  top: 50px;
+  z-index: -10;
+}
+.btn-print {
+  display: flex;
+  justify-content: flex-start;
+}
+.print-btn {
+  display: flex;
+  padding: 14px 33px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 5px;
+  background: #200e32;
+  color: #fff;
+}
+
+.media-suport {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.media-handle {
+  display: flex;
+  align-items: center;
+  gap: 27.311px;
+  list-style-type: none;
+}
+.get-on-tele{
+    display: flex;
+    gap: 10px;
+}
+
+.phone1, .phone2{
+display: flex;
+padding: 16px 20px;
+align-items: center;
+gap: 15px;
+color: #555;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+border-radius: 4px;
+border: 1px solid #200E32;
+}

@@ -1,0 +1,92 @@
+.NFT-market-place{
+    background: #200E32;
+    height: 1420px;
+    flex-shrink: 0;
+}
+
+.NFT-head-txt{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px 82px;
+
+}
+
+.NFT{
+    color: #F09A58;
+    font-family: 'Montserrat';
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-top: 10px;
+}
+.loremN-txt{
+    color: #FFF;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 29px;
+    width: 580px;
+}
+
+.NFT-buttons{
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    padding: 20px 82px;
+}
+
+.N-btn{
+    display: flex;
+    padding: 13.431px 20.146px;
+    align-items: flex-start;
+    gap: 9.593px;
+    border-radius: 26.862px;
+    background: #FFF;
+    border: none;
+}
+
+.comedy{
+    display: flex;
+    padding: 13.431px 20.146px;
+    align-items: flex-start;
+    gap: 9.593px;
+    border-radius: 26.862px;
+    border: 0.959px solid #FFF;
+    background: #200E32;
+
+    color: #FFF;
+    font-family: 'Montserrat';
+    font-size: 16.309px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.NFT-cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 20px 82px;
+    /*  */
+    gap: 19px;
+}
+.NFT-cards img{
+    width: 280px;
+    height: 543px;
+    flex-shrink: 0;
+
+}
+.load{
+    display: inline-flex;
+    padding: 17px 21px;
+    align-items: flex-start;
+    gap: 10px;
+    background: #FFF;
+    box-shadow: -3px 2px 0px 0px #F09A58;
+    border: none;
+}
+.NFT-bottom-btn{
+    display: flex;
+    justify-content: center;
+}

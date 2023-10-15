@@ -1,0 +1,81 @@
+.top{
+    color: #200E32;
+    font-family: 'Montserrat';
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 20px 82px;
+    margin-bottom: -20px;
+}
+
+.top-collections {
+  display: flex;
+  justify-content: center;
+  padding: 20 82px;
+  gap: 10px;
+}
+.big-card {
+  background: url("../assets/novelmap-img/Game-Of-Thrones-map-See-the-known-world\,-Westeros\,-The-.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 387px;
+  height: 228px;
+}
+
+.small-card1 {
+  background: url("../assets/novelmap-img/Group\ 171.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 125px;
+  height: 73px;
+}
+
+.small-card2 {
+  background: url("../assets/novelmap-img/Group\ 172.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 125px;
+  height: 73px;
+}
+.small-card3 {
+  background: url("../assets/novelmap-img/Group\ 173.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 125px;
+  height: 73px;
+}
+
+.cardz {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-top: 20px;
+}
+
+.small-cards {
+    display: flex;
+    gap: 5px;
+}
+.purple{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: #200E32;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    gap: 10px;
+}
+.hisbiscus-img{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+

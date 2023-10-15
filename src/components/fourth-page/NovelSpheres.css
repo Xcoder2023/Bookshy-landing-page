@@ -1,0 +1,64 @@
+.head-txt{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px 82px;
+}
+.library{
+    display: flex;
+    text-align: center;
+    color: #200E32;
+    font-family: 'Montserrat';
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    flex-shrink: 0;
+    padding-top: 10px;
+}
+.loremT-txt{
+    color: #200E32;
+    font-family: 'Montserrat';
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 29px; 
+    width: 565px;
+    flex-shrink: 0;
+}
+.buttons{
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 15px;
+    padding: 20px 82px;
+
+}
+.action{
+    display: flex;
+    padding: 13.431px 20.146px;
+    align-items: flex-start;
+    gap: 9.593px;
+    border: none;
+    border-radius: 26.862px;
+    background: #200E32;
+    color: #ffff; 
+}
+
+.more{
+    display: flex;
+    padding: 13.431px 20.146px;
+    align-items: flex-start;
+    gap: 9.593px;
+    border-radius: 26.862px;
+    border: 0.959px solid #200E32;
+}
+.sphere-cards{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 20px 82px;
+    row-gap: 10px;
+}
+.sphere-cards img{
+    width: 223px;
+    height: 315px;
+}
