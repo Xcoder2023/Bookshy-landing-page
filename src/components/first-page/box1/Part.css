@@ -29,9 +29,9 @@ span {
     width: 603px;
     color: #404040;
     font-size: 17px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
 }
 .svg {
   display: flex;
@@ -88,4 +88,48 @@ font-weight: 600;
 line-height: normal;
 border-radius: 4px;
 border: 1px solid #200E32;
+}
+
+@media screen and (max-width:768px) {
+  .container{
+    flex-direction: column;
+    padding: 29px;
+  }
+
+  .bold-print {
+    font-size: 20px;
+    line-height: 40px;
+  }
+  .bold-print-arrow{
+    display: none;
+  }
+  .print-paragraph{
+    width: 300px;
+    color: #404040;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 30px; 
+  }
+
+  .print-btn {
+    padding: 17px 95px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    background: #200e32;
+    color: #fff;
+  }
+
+  .media-handle{
+    display: flex;
+    gap: 17px;
+  }
+
+  .phone1, .phone2{
+    padding: 5px 6px;
+    align-items: center;
+    }
+ 
 }

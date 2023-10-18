@@ -60,6 +60,10 @@ const MarketPlace = () => {
           <div className="card1">
             <img src={ponch} alt="ponch" />
           </div>
+          <div className="mobile-view">
+          <img src={ayamatanga} alt="ayamatanga" />
+          <img src={ayajuraya} alt="ayajuraya" />
+          </div>
         </div>
         <div className="NFT-bottom-btn">
           <button className="load">Load more</button>

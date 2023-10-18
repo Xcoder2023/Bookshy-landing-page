@@ -4,15 +4,14 @@
     font-size: 25px;
     font-style: normal;
     font-weight: 700;
-    line-height: normal;
-    padding: 20px 82px;
-    margin-bottom: -20px;
+    padding:  82px;
+    margin-bottom: -70px;
 }
 
 .top-collections {
   display: flex;
   justify-content: center;
-  padding: 20 82px;
+  padding-bottom: 82px;
   gap: 10px;
 }
 .big-card {
@@ -54,7 +53,6 @@
   display: flex;
   flex-direction: column;
   gap: 10px;
-  padding-top: 20px;
 }
 
 .small-cards {
@@ -72,10 +70,51 @@
     font-weight: 600;
     line-height: normal;
     gap: 10px;
+    padding-top: 20px;
 }
 .hisbiscus-img{
     display: flex;
     align-items: center;
     gap: 5px;
+}
+
+@media screen and (max-width:768px) {
+
+  .top{
+    color: #200E32;
+    font-family: 'Montserrat';
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    padding:  82px 29px;
+    margin-bottom: -70px;
+}
+  .top-collections {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 29px;
+    gap: 10px;
+  }
+
+  .big-card{
+    width: 320px;
+    height: 220px;
+  }
+  .small-card1, .small-card2, .small-card3{
+    width: 103px;
+  height: 73px;
+  }
+  .cardz{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 18px;
+    padding: 0 29px;
+  }
+  .purple{
+    padding-top: 0px;
+    gap: 5px;
+  }
 }
 

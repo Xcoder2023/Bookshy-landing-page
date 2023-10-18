@@ -25,7 +25,7 @@ const NovelMap = () => {
                 <div className="grid-two"></div>
                 <div className="grid-three"></div>
                 <div className="grid-four"></div>
-                <div className="grid-one"></div>
+                <div className="grid-oneB"></div>
                 <div className="grid-six"></div>
             </div>
             <div className="left-large-view"></div>

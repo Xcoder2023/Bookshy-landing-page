@@ -50,8 +50,9 @@ ul{
 .summary{
     display: flex;
     justify-content: center;
-    gap: 106px;
+    gap: 85px;
     line-height: 50px;
+     
 }
 h3{
     color: #FFF;
@@ -73,9 +74,71 @@ h3{
     display: flex;
     gap: 106px;
 }
+.contacts li{
+    color: #FFF;
+    text-align: justify;
+    font-family: 'Poppins';
+}
 a{
     text-decoration: none;
     color: #FFF;
+}
+
+@media screen and (max-width:768px) {
+    .footer-range{
+        padding: 30px 29px;
+    }
+
+    .general-div{
+        display: flex;
+        flex-direction: column;
+        color: #fff;
+        gap: 20px;
+        padding: 10px 0px;
+        margin-bottom: -50px;
+    }
+
+
+    .text-lorem{
+        width: 330px;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 23px;
+    }
+
+    .summary{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        gap: 71px;
+        line-height: 50px;  
+    }
+    hr{
+        display: none;
+    }
+
+    .copywrite{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        color: #FFF;
+        padding: 82px 0px;
+        margin-top: -60px;
+    }
+
+    .terms ul{
+        display: flex;
+        flex-direction: column;
+        gap: 17px;
+    }
+
+    .bookshy{
+        display: flex;
+        justify-content: center;
+        padding-top: 30px;
+        margin-bottom: -70px;
+    }
 }
 
 

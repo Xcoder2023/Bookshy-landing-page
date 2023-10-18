@@ -18,7 +18,7 @@
   font-size: 17px;
   font-style: normal;
   font-weight: 500;
-  line-height: 29px; /* 170.588% */
+  line-height: 29px; 
   width: 613px;
 }
 .map-grids{
@@ -29,6 +29,14 @@
 }
 
 .grid-one {
+  background: url("../assets/novelmap-img/Group\ 173.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 250px;
+  height: 200px;
+}
+.grid-oneB {
   background: url("../assets/novelmap-img/Group\ 173.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -81,5 +89,56 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
-    /* row-gap: 0px; */
+}
+
+
+
+@media screen and (max-width:768px) {
+  .collectors {
+    flex-direction: column;
+    padding: 0 0px;
+    gap: 0px;
+    margin-top: -150px;
+    padding: 0 29px;
+  }
+  .bold-text {
+    font-size: 25px;
+    line-height: normal;
+    width: 330px;
+  }
+  .lorem-text{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px;
+    width: 330px;
+    padding: 15px 0px;
+  }
+  .grid-six, .grid-oneB{
+    display: none;
+  }
+
+  .grid-view{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  .map-grids{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px;
+    gap: 10px;
+    padding: 29px;
+  }
+
+  .grid-one, .grid-two, .grid-three, .grid-four, .grid-seven{
+    width: 160px;
+    height: 160px;
+  }
+  .left-large-view{
+    width: 330px;
+    height: 330px;
+  }
+
 }

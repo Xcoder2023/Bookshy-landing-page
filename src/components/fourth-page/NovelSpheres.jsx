@@ -36,14 +36,15 @@ const NovelSpheres = () => {
         <div className="sphere-cards">
             <div><img src={bird} alt="bird" /></div>
             <div><img src={duck} alt="duck" /></div>
-            <div><img src={flame} alt="flame" /></div>
-            <div><img src={coin} alt="coins" /></div>
+            <div className="birds"><img src={flame} alt="flame" /></div>
+            <div className="birds"><img src={coin} alt="coins" /></div>
             <div><img src={backtxt} alt="backtxt" /></div>
-            <div><img src={beauty} alt="fantasy" /></div>
-            <div><img src={bird} alt="" /></div>
-            <div><img src={bird} alt="" /></div>
-            <div><img src={bird} alt="" /></div>
-            <div><img src={bird} alt="" /></div>
+            <div className="duck"><img src={duck} alt="duck" /></div>
+            <div className="birds"><img src={beauty} alt="fantasy" /></div>
+            <div className="birds"><img src={bird} alt="" /></div>
+            <div className="birds"><img src={bird} alt="" /></div>
+            <div className="birds"><img src={bird} alt="" /></div>
+            <div className="birds"><img src={bird} alt="" /></div>
         </div>
       </div>
     </>

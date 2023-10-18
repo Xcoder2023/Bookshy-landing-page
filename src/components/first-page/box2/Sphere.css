@@ -1,3 +1,6 @@
+.boxes{
+  display: none;
+}
 .box2 {
   display: flex;
 }
@@ -15,4 +18,38 @@
 .card2 img {
   width: 237.93px;
   height: 292.492px;
+}
+
+@media screen and (max-width:768px) {
+  .box2{
+    display: none;
+  }
+  .boxes{
+    display: block;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .card7{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    padding-left: 120px;
+  }
+
+  .card img {
+    width: 191.321px;
+    height: 235.196px;
+    position: relative;
+    left: 0px;
+    bottom: 30px;
+    margin-bottom: -260px;
+    margin-left: -95px;
+  }
+  .card7 img {
+    width: 136.174px;
+    height: 167.402px;
+  }
 }

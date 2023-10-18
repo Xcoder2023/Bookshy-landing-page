@@ -53,7 +53,7 @@ const Footer = () => {
           <div className="summary">
             <div className="mktplace">
               <h3>Marketplace</h3>
-              <ul>
+              <ul className="contacts">
                 <li>All Novels</li>
                 <li>All NFTS</li>
                 <li>Collections</li>
@@ -62,7 +62,7 @@ const Footer = () => {
             </div>
             <div className="resourse">
               <h3>Resources</h3>
-              <ul>
+              <ul className="contacts">
                 <li>Help Centers</li>
                 <li>Partners</li>
                 <li>Docs</li>
@@ -70,14 +70,14 @@ const Footer = () => {
             </div>
             <div className="company">
               <h3>Company</h3>
-              <ul>
+              <ul className="contacts">
                 <li>About us</li>
                 <li>Contact us</li>
               </ul>
             </div>
             <div className="statistics">
               <h3>Statistics</h3>
-              <ul>
+              <ul className="contacts">
                 <li>Ranking</li>
                 <li>Activities</li>
               </ul>

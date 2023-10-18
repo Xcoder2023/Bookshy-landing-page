@@ -13,8 +13,8 @@
   line-height: normal;
   padding: 53px 80px 0 80px;
   font-family: 'Montserrat';
-
 }
+
 .novels {
   display: flex;
   justify-content: center;
@@ -32,4 +32,32 @@
   height: 315px;
   border: 1px solid #200e32;
   background: #fff;
+}
+
+
+@media screen and (max-width:768px) {
+  .trending-novels {
+    background: #200e32;
+    height:100%;
+    margin-bottom: 200px;
+  }
+  .novels {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    padding: 29px;
+  }
+  .novel5{
+    display: none;
+  }
+
+  .trending-novels {
+    font-size: 16px;
+    padding: 25px 40px 0 40px;
+    
+  }
+  .nove-img {
+    width: 165px;
+    height: 225px;
+  }
 }
